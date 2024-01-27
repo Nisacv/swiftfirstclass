@@ -34,7 +34,8 @@ class ViewController: UIViewController {
         else
         {
             txtMsg.text = "Succesfully Completed"
-            
+            txtMsg.alpha = 1 
+        
         }
     }
     
