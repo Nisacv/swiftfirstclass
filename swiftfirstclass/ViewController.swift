@@ -43,7 +43,7 @@ class ViewController: UIViewController {
     
     func Validation_Check() ->Int
     {
-        print("validation check called")
+  
         if txtFirst.text == "" || txtLast.text == "" || txtCountry.text == "" || txtAge.text == ""
         {
             x = 1
