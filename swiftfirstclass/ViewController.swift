@@ -59,6 +59,8 @@ class ViewController: UIViewController {
     @IBAction func addBtn(_ sender: Any) {
         if Validation_Check() == 1
         {
+            txtMsg.text = "Complete the Missing Info!"
+            txtMsg.alpha = 1
             
         }
         else
