@@ -26,18 +26,18 @@ class ViewController: UIViewController {
         txtMsg.text = ""
     }
     @IBAction func txtSubmit(_ sender: Any) {
-        print("txtSubmit called")
+        
         if Validation_Check() == 1
         {
             txtMsg.text = "Complete the Missing Info!"
             txtMsg.alpha = 1        }
         else
         {
-            print("enter in else")
             txtMsg.text = "Succesfully Completed"
-            txtMsg.alpha = 1        }
+            
+        }
     }
-   
+    
     
     
     func Validation_Check() ->Int
@@ -53,13 +53,12 @@ class ViewController: UIViewController {
         }
         print(x)
         return x
-            
+        
     }
     @IBAction func addBtn(_ sender: Any) {
-       if Validation_Check() == 1
+        if Validation_Check() == 1
         {
-           txtMsg.text = "Complete the Missing Info!";
-           txtMsg.alpha = 1
+            
         }
         else
         {
@@ -70,11 +69,11 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-       
+        
         
         
     }
-
-
+    
+    
 }
 
