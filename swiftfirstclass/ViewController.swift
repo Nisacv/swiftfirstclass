@@ -71,9 +71,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
        
-        //txtSubmit.isHidden = true
-        // txtFirst.text = "Nisa"
-      //  print(txtFirst.text);
+        
         
     }
 
